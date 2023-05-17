@@ -1,10 +1,10 @@
 #Data Sync & storage
 
 1. Purpose:
-The purpose of this Standard Operating Procedure (SOP) is to establish a systematic and secure process for granting and managing authorization access to business IT systems and resources within [Your Company Name]. This SOP aims to ensure that access to sensitive data and critical systems is granted to authorized individuals only, minimizing the risk of unauthorized access, data breaches, and other security incidents.
+The purpose of this Standard Operating Procedure (SOP) is to establish a systematic and secure process for Creating a New File Synchronization Tas with scheduled back up. 
 
 2. Scope:
-This SOP applies to all employees, contractors, and third-party vendors who require access to business IT systems and resources within [Your Company Name]. It covers both physical and logical access controls.
+This SOP applies to all employees, contractors, and third-party vendors who require access to business IT systems and resources within [Your Company Name]. it covers the administrators creation of file syncing data and scheduled back up.
 
 3. Definitions:
 - Authorization: The process of granting or revoking access privileges to IT systems, applications, databases, or other resources based on the individual's role and responsibilities within the organization.
@@ -29,7 +29,7 @@ This SOP applies to all employees, contractors, and third-party vendors who requ
    - Promptly notify the IT department of any changes or terminations within their team.
 
 4.4. Employees:
-   - Submit access requests following the prescribed process.
+   - Employee/COmpany Date will be backed up and archived as outlined in this SOP.
    - Safeguard their access credentials and report any suspicious activities or potential security incidents.
 
 5. Access Request Process:
@@ -46,8 +46,8 @@ This SOP applies to all employees, contractors, and third-party vendors who requ
    - Additional approvals may be required depending on the nature of the requested access (e.g., IT security team, data owner).
 
 5.4. Account Creation:
-   - Upon approval, the IT department will create the user account and assign appropriate access privileges based on the access request and user's role.
-   - The account creation process will follow the IT department's standard procedures and security controls.
+   - Upon approval, the IT department will create the user account @ domain with appropriate access privileges based on the access request and user's role.
+   - The account creation process will follow the IT department's standard procedures and security controls.d
 
 6. Access Review and Termination:
 6.1. Periodic Access Reviews:
@@ -60,31 +60,31 @@ This SOP applies to all employees, contractors, and third-party vendors who requ
 
 7. Documentation:
 
-Installation and Setup:
+- Installation and Setup:
 Download the latest version of FreeFileSync from the official website and follow the installation instructions.
-Launch FreeFileSync and configure the initial settings according to your preferences.
-Creating a New File Synchronization Task:
-Click "Add" or "New" to create a new synchronization task.
-Select the source folder or drive and the target folder or drive.
-Customize synchronization settings, such as file filters and conflict handling.
-Save the task with a meaningful name.
+- Launch FreeFileSync and configure the initial settings according to your preferences.
+- Creating a New File Synchronization Task:
+- Click "Add" or "New" to create a new synchronization task.
+- Select the source folder or drive and the target folder or drive.
+- Customize synchronization settings, such as file filters and conflict handling.
+- Save the task with a meaningful name.
 Running a File Synchronization Task:
-Select the desired synchronization task from the list.
-Click "Compare" to analyze the differences between the source and target folders.
-Review the analysis results and ensure they match your expectations.
-Click "Synchronize" to start the synchronization process.
-Monitor the progress and verify completion.
+- Select the desired synchronization task from the list.
+- Click "Compare" to analyze the differences between the source and target folders.
+- Review the analysis results and ensure they match your expectations.
+- Click "Synchronize" to start the synchronization process.
+- Monitor the progress and verify completion.
 Advanced Configuration and Options:
-Explore advanced configuration options, such as file deletion rules and filters.
-Adjust options based on your specific requirements.
-Save the changes to the synchronization task.
+- Explore advanced configuration options, such as file deletion rules and filters.
+- Adjust options based on your specific requirements.
+- Save the changes to the synchronization task.
 Creating Scheduled Synchronization Tasks:
-Open the Task Scheduler or a similar tool on your operating system.
-Create a new task with the appropriate command-line parameters for FreeFileSync.
-Set the desired schedule for the synchronization task (e.g., daily, weekly).
-Save the scheduled task and ensure it is enabled for automatic execution.
+- Open the Task Scheduler or a similar tool on your operating system.
+- Create a new task with the appropriate command-line parameters for FreeFileSync.
+- Set the desired schedule for the synchronization task (e.g., daily, weekly).
+- Save the scheduled task and ensure it is enabled for automatic execution.
 Handling Errors and Troubleshooting:
-Review error messages and logs for troubleshooting if any issues occur during synchronization.
-Ensure you have the necessary permissions to access and modify the source and target folders.
-Verify the source and target drives are connected and accessible.
-Update FreeFileSync to the latest version if you encounter compatibility issues or known bugs.
+- Review error messages and logs for troubleshooting if any issues occur during synchronization.
+- Ensure you have the necessary permissions to access and modify the source and target folders.
+- Verify the source and target drives are connected and accessible.
+- Update FreeFileSync to the latest version if you encounter compatibility issues or known bugs.
